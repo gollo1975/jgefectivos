@@ -49,7 +49,7 @@ if (!isset($usuario)):
  else:
      include("../conexion.php");
      $consulta="select acceso.* from acceso where usuario='$usuario'";
-     $resultado=mysql_query($consulta)or die("Consulta incorrecta");
+     $resultado=mysql_query($consulta)or die("Consulta incorrecta ");
      $registros=mysql_num_rows($resultado);
      if ($registros!= 0):
        while($filas=mysql_fetch_array($resultado)):
