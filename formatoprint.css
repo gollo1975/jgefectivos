@@ -1,0 +1,29 @@
+.cajas{
+      font-family:verdana;
+      font-size:8pt;
+      }
+.cajasletras{
+      font-family:verdana;
+      font-size:7.5pt;
+      }
+.fondo{
+       background-color:green;
+       color:white;
+       }
+	   
+.impresion {
+	
+		background-image:url(image/factura.jpg);
+		background-position:top;
+		background-repeat:no-repeat;
+		
+	}
+	
+@media print	{
+
+	background-image:url(image/factura.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+

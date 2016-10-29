@@ -1,0 +1,173 @@
+BODY {
+  font-size: 8pt;
+  background-color: beige;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+A:link { text-decoration: none; color: black ; font-family:Arial, Helvetica, sans-serif}
+A:visited { text-decoration: none; color: black; font-family:Arial, Helvetica, sans-serif}
+A:active { text-decoration: none; color: black ; font-family:Arial, Helvetica, sans-serif}
+A:hover  { text-decoration: none; color: black; font-family:Arial, Helvetica, sans-serif;}
+
+A.imagen
+{
+link { text-decoration: none; color: 66cc99 ; font-family:Arial, Helvetica, sans-serif}
+visited { text-decoration: none; color: blue ; font-family:Arial, Helvetica, sans-serif}
+active { text-decoration: none; color: blue ; font-family:Arial, Helvetica, sans-serif}
+hover  { text-decoration: none; color: green; font-family:Arial, Helvetica, sans-serif;}
+
+}
+
+.encabMenu
+{
+link { text-decoration: none; color: green ; font-family:Arial, Helvetica, sans-serif}
+visited { text-decoration: none; color: white ; font-family:Arial, Helvetica, sans-serif}
+active { text-decoration: none; color: white ; font-family:Arial, Helvetica, sans-serif}
+hover  { text-decoration: none; color: white; font-family:Arial, Helvetica, sans-serif;}
+
+}
+
+
+TABLE
+{
+        background-color: 66cc99;
+        border-color: darkkhaki;
+        border-style: solid;
+        border-width: 2px;
+}
+
+.tabla_botones
+{
+        background-color: 66cc99;
+        border-color: beige;
+        border-style: solid;
+        border-width: 3px;
+}
+
+
+
+th
+{
+        text-align: center;
+        background-color: #006464;
+        color: white;
+         padding-left: 0px;
+    padding-right: 0px;
+      padding-top: 0px;
+         padding-bottom: 0px;
+        font-size: 9pt;
+
+}
+td {
+ text-align: left;
+ background-color: 66cc99;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ vertical-align: top ; font-family:Tahoma, Helvetica, sans-serif;
+ }
+
+.td_botones
+{
+ text-align: right;
+ background-color: 66cc99;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ vertical-align: top ; font-family:Tahoma, Helvetica, sans-serif;
+
+}
+
+tr
+{
+
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ font-size: 10pt;
+}
+
+.cajas{
+      font-family:verdana;
+      font-size:7.9pt;
+      }
+.cajasletra{
+      font-family:verdana;
+      font-size:7pt;
+      }
+.boton
+{
+    font-size: 10pt;
+    background-color: palegoldenrod;
+    border-width: 2.5px;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 5;
+    padding: 3px;
+    min-width: 15ex;
+    min-height: 2.5ex;
+}
+
+.lbmenu
+{
+   font-size: 9pt;
+   font-weight: bold;
+   background-color:#006464;
+   color: white;
+}
+
+.itemmenu
+{
+   font-size: 8pt;
+   font-wieght: normal;
+   background-color: #FEDC8D;
+
+}
+
+#encabezado{
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 3em;
+
+ border-bottom: 0.2em solid #ACA250;
+}
+
+
+#menu
+{
+   position: fixed;
+   top: 3em;
+   left: 0;
+   bottom: 2.5em;
+   right: 80%;
+   width: 20%;
+   padding: 0 0.5em;
+   border-right: 0.2em solid #ACA250;
+   overflow: scroll;
+
+}
+
+#contenido
+{
+   position: fixed;
+   left: 22%;
+   bottom: 2.5em;
+   top: 3em;
+   right: 0;
+   width: 78%;
+   padding: 0 0.5em;
+   border-bottom: 0.2em solid #ACA250;
+
+}
+
+#pie{
+ position: fixed;
+ left: 0; bottom: 0; right: 0; height: 2.5em;
+ border-top: 0.2em solid #ACA250;
+}

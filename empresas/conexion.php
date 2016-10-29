@@ -1,0 +1,1 @@
+<?php	$cnn = new mysqli ("localhost", "root", "", "jgefectivo") or die ("Servidor y/o BD no se encuentran");	?>

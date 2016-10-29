@@ -1,0 +1,355 @@
+BODY {
+  font-size: 7.5pt;
+  background-color: #FFFFEA;
+  color:;
+  font-family:tahoma, Helvetica, sans-serif
+}
+
+A:link { text-decoration: none; color: black ; font-family:Arial, Helvetica, sans-serif}
+A:visited { text-decoration: none; color: black; font-family:Arial, Helvetica, sans-serif}
+A:active { text-decoration: none; color: green ; font-family:Arial, Helvetica, sans-serif}
+A:hover  { text-decoration: none; color: red; font-family:Arial, Helvetica, sans-serif;}
+
+A.imagen
+{
+link { text-decoration: none; color: beige ; font-family:Arial, Helvetica, sans-serif}
+visited { text-decoration: none; color: blue ; font-family:Arial, Helvetica, sans-serif}
+active { text-decoration: none; color: blue ; font-family:Arial, Helvetica, sans-serif}
+hover  { text-decoration: none; color: green; font-family:Arial, Helvetica, sans-serif;}
+
+}
+
+.encabMenu
+{
+link { text-decoration: none; color: green ; font-family:Arial, Helvetica, sans-serif}
+visited { text-decoration: none; color: white ; font-family:Arial, Helvetica, sans-serif}
+active { text-decoration: none; color: white ; font-family:Arial, Helvetica, sans-serif}
+hover  { text-decoration: none; color: white; font-family:Arial, Helvetica, sans-serif;}
+
+}
+
+.informacion	{
+
+	text-align:right;
+	font-size:8pt;
+}
+
+TABLE
+{
+        background-color: beige;
+        border-color: darkkhaki;
+        border-style: solid;
+        border-width: 1.5px;
+}
+
+.tabla_botones
+{
+        background-color: beige;
+        border-color: green;
+        border-style: solid;
+        border-width: 2px;
+}
+
+input{
+  border-radius: 0;
+  padding : 1 0px;
+  margin  : 0;
+  background: #D5EAEA;
+}
+select{
+  border-radius: 0;
+  padding : 1 0px;
+  margin  : 0;
+  background: #D5EAEA;
+}
+
+TH
+{
+        text-align: center;
+        background-color: #008000;
+        color: white;
+         padding-left: 1px;
+    padding-right: 0px;
+      padding-top: 0px;
+         padding-bottom: 0px;
+        font-size: 9pt;
+
+}
+TD {
+ text-align: left;
+ background-color: beige;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ vertical-align: top ; font-family:tahoma, Helvetica, sans-serif;
+ }
+
+.td_botones
+{
+ text-align: right;
+ background-color: beige;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ vertical-align: top ; font-family:Arial, Helvetica, sans-serif;
+
+}
+
+TR
+{
+
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ font-size: 9pt;
+}
+
+.cajas{
+      font-family:verdana;
+      font-size:8pt;
+      }
+.cajasletra{
+      font-family:verdana;
+      font-size:7.5pt;
+      }
+.boton
+{
+    font-size: 8pt;
+    background-color: palegoldenrod;
+    border-width: 2px;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 5;
+    padding: 3px;
+    min-width: 15ex;
+    min-height: 2.5ex;
+}
+
+.lbmenu
+{
+   font-size: 9pt;
+   font-weight: bold;
+   background-color: #008000;
+   color: white;
+}
+.itemmenu
+{
+   font-size: 8pt;
+   font-wieght: normal;
+   background-color: #EAEA00;
+
+}
+
+#encabezado{
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 3em;
+
+ border-bottom: 0.2em solid #ACA250;
+}
+
+
+#menu
+{
+   position: fixed;
+   top: 3em;
+   left: 0;
+   bottom: 2.5em;
+   right: 80%;
+   width: 20%;
+   padding: 0 0.5em;
+   border-right: 0.2em solid #ACA250;
+   overflow: scroll;
+
+}
+
+#contenido
+{
+   position: fixed;
+   left: 22%;
+   bottom: 2.5em;
+   top: 3em;
+   right: 0;
+   width: 78%;
+   padding: 0 0.5em;
+   border-bottom: 0.2em solid #ACA250;
+
+}
+
+#pie{
+ position: fixed;
+ left: 0; bottom: 0; right: 0; height: 2.5em;
+ border-top: 0.2em solid #ACA250;
+}
+
+
+/* calendar style */
+#calendarDiv table, #calendarDiv th, #calendarDiv td, #calendarDiv, #calendarDiv a {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 12px;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+div#calendarDiv {
+
+	display: block;
+	display: none;
+	position: relative;
+	border: 1px solid #777;
+}
+
+div#calendarDiv a {
+
+	cursor: pointer;
+	cursor: hand;
+	color: #000;
+}
+
+table#calendar {
+
+	background: #ddd;
+	clear: both;
+	text-align: center;
+	font-size: 105%;
+}
+
+table#calendar, #linksTable {
+	width: 180px;
+}
+
+table#calendar .calendarHeader {
+	background: #0F0A0A url(../../img/fadeto333.gif) top repeat-x;
+	border-bottom: 1px solid #444;
+	color: #fff;
+}
+
+table#calendar tr.weekDaysTitleRow td {
+	background: #777;
+	color: #fff;
+}
+
+table#calendar tr.weekDaysRow {
+	background: #eee;
+	color: #666;
+}
+
+table#calendar td.weekDaysCell {
+	color: #000;
+	border: 1px solid #ddd;
+}
+
+table#calendar td.weekDaysCellOver {
+	background: #fff;
+	border: 1px solid #777;
+}
+
+a#closeCalender {
+	position: absolute;
+	right: 0;
+	bottom: 100%;
+	margin-bottom: 1px;
+	display: block;
+	padding: 2px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 60%;
+	letter-spacing: 1px;
+}
+
+a#closeCalender:hover {
+	background: #000;
+	color: #fff;
+}
+
+div#calendarDiv table#linksTable td {
+	background: #000;
+}
+
+table#linksTable a {
+	display: block;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 2px 5px;
+}
+
+table#linksTable a:hover {
+	background: #ddd;
+	color: #333;
+}
+
+a#prevMonth {
+	float: left;
+}
+
+a#nextMonth {
+	float: right;
+}
+
+td#today {
+	background: #999;
+}
+
+#calendar_cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 193px; /*must have to match width and borders*/
+    height: 200px; /*must have to match maximum height*/ 
+}
+
+.formato {
+		
+		font-family:verdana; 
+		font-size:7pt;
+}
+.ValidarCajas {
+    background-color: #FF6C6C;
+    border: 1px dashed #808000;
+    border-left: 4px solid #808000;
+    width: 78px;
+}
+.ValidarCajasIL {
+    background-color: #5BADFF;
+    border: 1px dashed #808000;
+    border-left: 2px solid #808000;
+    width: 36px;
+}
+.ValidarCajasIG {
+    background-color: #FFB3B3;
+    border: 1px dashed #808000;
+    border-left: 2px solid #808000;
+    width: 36px;
+}
+.ValidarCajasR {
+    background-color: #B3FFB3;
+    border: 2px dashed #808000;
+    border-left: 4px solid #808000;
+    width: 77px;
+}
+.ValidarCajasCuarenta {
+    background-color: #FF3E3E;
+    border: 0px dashed #808000;
+    border-left: 0px solid #808000;
+    width: 59px;
+    height: 20px; 
+    font-family:verdana;
+    font-size:8pt;  
+}
