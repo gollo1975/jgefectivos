@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Datos a Modificar</title>
+<title>Datos a Modificar</title>
   <LINK  REL="stylesheet" HREF="../estilo.css"  type="text/css">
    <script language="javascript">
                     function ColorFoco(obj)	{
